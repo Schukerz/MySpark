@@ -24,6 +24,7 @@ object Spark09_wc {
     //combineByKeyClassTag
     rdd2.collect.foreach(println)
     println("hello")
+    println("hi")
 
     sc.stop()
 
