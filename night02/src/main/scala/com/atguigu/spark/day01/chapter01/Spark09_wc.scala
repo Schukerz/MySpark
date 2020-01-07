@@ -25,5 +25,7 @@ object Spark09_wc {
     rdd2.collect.foreach(println)
 
     sc.stop()
+
+    //hello
   }
 }
