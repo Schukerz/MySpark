@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88117d63-e9dc-4e20-83d4-be99d50320ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark10_Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Aggregate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark02_partitionBy.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark03_cogroup.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark04_combineByKey.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark05_groupByKey.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark06_practice.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/spark01_either.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark09_wc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark09_wc.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,42 +24,60 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark07_AggregateByKey.scala">
+        <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Aggregate.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="55">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding>
-                <element signature="e#43#74#0" expanded="true" />
+                <element signature="e#42#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark08_AggregateByKey2.scala">
+        <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark03_cogroup.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark09_wc.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="90">
+              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#42#73#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark03_SingleValue2.scala">
+        <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark04_combineByKey.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="294">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
-                <element signature="e#43#74#0" expanded="true" />
+                <element signature="e#42#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark05_groupByKey.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+              <folding>
+                <element signature="e#42#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark06_practice.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding>
+                <element signature="e#42#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,6 +103,14 @@
         <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark07_AggregateByKey.scala" />
         <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark08_AggregateByKey2.scala" />
         <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark09_wc.scala" />
+        <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark10_Test.scala" />
+        <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/spark01_either.scala" />
+        <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark02_partitionBy.scala" />
+        <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Aggregate.scala" />
+        <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark03_cogroup.scala" />
+        <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark04_combineByKey.scala" />
+        <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark05_groupByKey.scala" />
+        <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark06_practice.scala" />
       </list>
     </option>
   </component>
@@ -116,7 +148,9 @@
     <option name="width" value="1930" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -147,6 +181,147 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="night02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="night02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="night02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="keyvalue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="night02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="keyvalue" type="462c0819:PsiDirectoryNode" />
+              <item name="Aggregate$" type="ce8f04f3:TypeDefinitionNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="night02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="keyvalue" type="462c0819:PsiDirectoryNode" />
+              <item name="Spark02_partitionBy$" type="ce8f04f3:TypeDefinitionNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="rdd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="rdd" type="462c0819:PsiDirectoryNode" />
+              <item name="PairRDDFunctions.class" type="6117b065:FileNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="rdd" type="462c0819:PsiDirectoryNode" />
+              <item name="PairRDDFunctions.class" type="6117b065:FileNode" />
+              <item name="PairRDDFunctions" type="ce8f04f3:TypeDefinitionNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="rdd" type="462c0819:PsiDirectoryNode" />
+              <item name="RDD.class" type="6117b065:FileNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="rdd" type="462c0819:PsiDirectoryNode" />
+              <item name="RDD.class" type="6117b065:FileNode" />
+              <item name="RDD" type="ce8f04f3:TypeDefinitionNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.scala-lang:scala-library:2.11.8" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.scala-lang:scala-library:2.11.8" type="70bed36:NamedLibraryElementNode" />
+              <item name="scala-library-2.11.8.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -158,11 +333,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578369197103" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578403895447" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -181,13 +356,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Spark09_wc">
-    <configuration name="Spark04_SingleValue4" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day01.chapter01.Spark04_SingleValue4" />
+  <component name="RunManager" selected="Application.Spark06_practice">
+    <configuration name="Aggregate" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day02.keyvalue.Aggregate" />
       <module name="night02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.day01.chapter01.*" />
+          <option name="PATTERN" value="com.atguigu.spark.day02.keyvalue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,12 +370,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark06_SingleValue5" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day01.chapter01.Spark06_SingleValue5" />
+    <configuration name="Spark03_cogroup" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day02.keyvalue.Spark03_cogroup" />
       <module name="night02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.day01.chapter01.*" />
+          <option name="PATTERN" value="com.atguigu.spark.day02.keyvalue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,12 +383,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark07_AggregateByKey" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day01.chapter01.Spark07_AggregateByKey" />
+    <configuration name="Spark04_combineByKey" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day02.keyvalue.Spark04_combineByKey" />
       <module name="night02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.day01.chapter01.*" />
+          <option name="PATTERN" value="com.atguigu.spark.day02.keyvalue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,12 +396,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark08_AggregateByKey2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day01.chapter01.Spark08_AggregateByKey2" />
+    <configuration name="Spark05_groupByKey" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day02.keyvalue.Spark05_groupByKey" />
       <module name="night02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.day01.chapter01.*" />
+          <option name="PATTERN" value="com.atguigu.spark.day02.keyvalue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,12 +409,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark09_wc" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day01.chapter01.Spark09_wc" />
+    <configuration name="Spark06_practice" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day02.keyvalue.Spark06_practice" />
       <module name="night02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.day01.chapter01.*" />
+          <option name="PATTERN" value="com.atguigu.spark.day02.keyvalue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,11 +424,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Spark09_wc" />
-        <item itemvalue="Application.Spark08_AggregateByKey2" />
-        <item itemvalue="Application.Spark07_AggregateByKey" />
-        <item itemvalue="Application.Spark06_SingleValue5" />
-        <item itemvalue="Application.Spark04_SingleValue4" />
+        <item itemvalue="Application.Spark06_practice" />
+        <item itemvalue="Application.Spark05_groupByKey" />
+        <item itemvalue="Application.Spark04_combineByKey" />
+        <item itemvalue="Application.Spark03_cogroup" />
+        <item itemvalue="Application.Aggregate" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +444,8 @@
       <updated>1578313493037</updated>
       <workItem from="1578313494582" duration="4104000" />
       <workItem from="1578322780938" duration="3659000" />
-      <workItem from="1578356995998" duration="7547000" />
+      <workItem from="1578356995998" duration="7830000" />
+      <workItem from="1578382787280" duration="9786000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1578369094023</created>
@@ -278,11 +454,32 @@
       <option name="project" value="LOCAL" />
       <updated>1578369094023</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hello">
+      <created>1578369191721</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578369191721</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hello">
+      <created>1578369346954</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578369346954</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hello">
+      <created>1578369395347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578369395347</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15310000" />
+    <option name="totallyTimeSpent" value="25379000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -294,10 +491,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -306,7 +503,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.32844576" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.32844576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -317,7 +514,7 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32991204" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329429" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.329429" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -410,13 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/rdd/RDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="837" column="6" selection-start-line="837" selection-start-column="6" selection-end-line="837" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark04_SingleValue3.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -451,19 +641,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark03_SingleValue2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="e#43#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark07_AggregateByKey.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="315">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
             <element signature="e#43#74#0" expanded="true" />
@@ -473,15 +653,154 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark08_AggregateByKey2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="672">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark03_SingleValue2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#43#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark09_wc.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="105">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/SparkConf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1768">
+          <caret line="115" column="68" lean-forward="true" selection-start-line="115" selection-start-column="68" selection-end-line="115" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark10_Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#43#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/spark01_either.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/package.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/util/Left.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/Partitioner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="138" column="17" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/util/Either.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="106" column="33" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark02_partitionBy.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#42#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Aggregate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="e#42#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark03_cogroup.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#42#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark04_combineByKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#42#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark05_groupByKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <element signature="e#42#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day02/keyvalue/Spark06_practice.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="e#42#73#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
