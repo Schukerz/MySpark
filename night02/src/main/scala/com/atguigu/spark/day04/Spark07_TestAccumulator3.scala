@@ -3,7 +3,7 @@ package com.atguigu.spark.day04
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
-object Spark07_TextAccumulator3 {
+object Spark07_TestAccumulator3 {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("Spark07_TextAccumulator3").setMaster("local[2]")
     val sc = new SparkContext(conf)
