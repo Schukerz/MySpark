@@ -19,7 +19,13 @@ object Spark06_practice {
         (pro, (ads, count))
       }
     }
-    proToAdsCountGrouped.collect.foreach(println)
+    val result: RDD[(String, List[(String, Int)])] = proToAdsCountGrouped.groupByKey().map {
+      case (pro, it) => {
+        (pro, it.toList.sortWith(_._2 > _._2).take(3))
+      }
+    }.sortBy(_._1.toInt
+    )
+    result.collect.foreach(println)
     sc.stop()
   }
 
