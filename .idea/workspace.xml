@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88117d63-e9dc-4e20-83d4-be99d50320ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day04/Spark01_Hbase.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day04/Spark02_HbaseWrite.scala" afterDir="false" />
+    <list default="true" id="88117d63-e9dc-4e20-83d4-be99d50320ac" name="Default Changelist" comment="hello">
+      <change afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day04/Spark03_Accumulator.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/night02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/night02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day03_test/Spark06_Partitioner2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day03_test/Spark06_Partitioner2.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,13 +28,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day04/Spark02_HbaseWrite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="462">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding>
                 <element signature="e#33#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day04/Spark03_Accumulator.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <element signature="e#33#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +100,7 @@
         <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day03_test/Spark06_Partitioner2.scala" />
         <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day04/Spark01_Hbase.scala" />
         <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day04/Spark02_HbaseWrite.scala" />
+        <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day04/Spark03_Accumulator.scala" />
       </list>
     </option>
   </component>
@@ -284,7 +294,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578621841409" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578622443716" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Scala/day08_Scala/scala-190830" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -320,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Spark02_HbaseWrite">
+  <component name="RunManager" selected="Application.Spark03_Accumulator">
     <configuration name="Spark01_Hbase" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day04.Spark01_Hbase" />
       <module name="night02" />
@@ -334,12 +344,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark02_Cache" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day03_test.Spark02_Cache" />
+    <configuration name="Spark02_HbaseWrite" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day04.Spark02_HbaseWrite" />
       <module name="night02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.spark.day03_test.*" />
+          <option name="PATTERN" value="com.atguigu.spark.day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,8 +357,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark02_HbaseWrite" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day04.Spark02_HbaseWrite" />
+    <configuration name="Spark03_Accumulator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.day04.Spark03_Accumulator" />
       <module name="night02" />
       <extension name="coverage">
         <pattern>
@@ -388,11 +398,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Spark03_Accumulator" />
         <item itemvalue="Application.Spark02_HbaseWrite" />
         <item itemvalue="Application.Spark01_Hbase" />
         <item itemvalue="Application.Spark08_TestRead" />
         <item itemvalue="Application.Spark07_CheckPoint" />
-        <item itemvalue="Application.Spark02_Cache" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +424,7 @@
       <workItem from="1578462440222" duration="5109000" />
       <workItem from="1578479920457" duration="8601000" />
       <workItem from="1578561421435" duration="1083000" />
-      <workItem from="1578617893379" duration="3373000" />
+      <workItem from="1578617893379" duration="3972000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1578369094023</created>
@@ -458,11 +468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578617903343</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hello">
+      <created>1578621852817</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578621852817</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48410000" />
+    <option name="totallyTimeSpent" value="49009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,6 +492,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1883378" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -517,13 +535,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="hello" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1.jar!/org/apache/spark/rdd/RDD.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day01/chapter01/Spark04_SingleValue3.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -913,10 +924,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day04/Spark02_HbaseWrite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="462">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
             <element signature="e#33#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day04/Spark03_Accumulator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="e#33#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
