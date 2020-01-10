@@ -9,13 +9,13 @@ object Spark06_Partitioner2 {
     val sc = new SparkContext(conf)
     val rdd: RDD[Int] = sc.makeRDD(List(1,2,5,3,2,5,6,4),2)
     val rdd2: RDD[(Int, Int)] = rdd.map((_,1))
-    val rdd3: RDD[(Int, Int)] = rdd2.partitionBy(new MyPartitioner(3))
+    val rdd3: RDD[(Int, Int)] = rdd2.partitionBy(new MyPartitioner1(3))
     val rdd4: RDD[Array[(Int, Int)]] = rdd3.glom()
     rdd4.collect().foreach(a=>println(a.mkString(",")))
     sc.stop()
   }
 }
-class MyPartitioner(val partitioners : Int) extends Partitioner{
+class MyPartitioner1(val partitioners : Int) extends Partitioner{
   override def numPartitions: Int = partitioners
 
   override def getPartition(key: Any): Int = key match{
