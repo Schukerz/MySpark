@@ -31,4 +31,5 @@ class Spark06_Accumulator3 extends AccumulatorV2[Long,Map[String,Double]] {
     map += "avg" -> this.map.getOrElse("sum",0D)/this.map.getOrElse("count",0D)
     map
   }
+  //dd
 }
