@@ -18,6 +18,6 @@ object Spark05_TestAccumulator2 {
     println(myAcc)
     sc.stop()
 //the star is so beautiful because of a flower that cannot be seen
-
+Thread.sleep(100000)
   }
 }

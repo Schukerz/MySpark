@@ -25,6 +25,7 @@ object Spark01_DoubleValue {
 
 
     rdd3.collect.foreach(println)
+    Thread.sleep(1000000)
     sc.stop()
 
   }

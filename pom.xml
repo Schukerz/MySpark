@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>night02</module>
+        <module>project_code</module>
     </modules>
     <dependencies>
         <dependency>
