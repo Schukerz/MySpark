@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="night02" />
         <module name="project_code" />
+        <module name="spark_sql" />
       </profile>
     </annotationProcessing>
   </component>

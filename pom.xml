@@ -11,6 +11,7 @@
     <modules>
         <module>night02</module>
         <module>project_code</module>
+        <module>spark_sql</module>
     </modules>
     <dependencies>
         <dependency>
