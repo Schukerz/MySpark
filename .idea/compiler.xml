@@ -9,6 +9,7 @@
         <module name="night02" />
         <module name="project_code" />
         <module name="spark_sql" />
+        <module name="spark_streaming" />
       </profile>
     </annotationProcessing>
   </component>
