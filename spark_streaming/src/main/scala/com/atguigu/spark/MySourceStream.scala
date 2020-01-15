@@ -14,6 +14,6 @@ object MySourceStream {
     result.print
     ssc.start()
     ssc.awaitTerminationOrTimeout(1000000)
-ssc.stop()
+    ssc.stop()
   }
 }
