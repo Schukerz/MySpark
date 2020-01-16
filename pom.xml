@@ -13,6 +13,8 @@
         <module>project_code</module>
         <module>spark_sql</module>
         <module>spark_streaming</module>
+        <module>mock-data</module>
+        <module>mock_data2</module>
     </modules>
     <dependencies>
         <dependency>

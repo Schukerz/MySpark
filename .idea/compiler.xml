@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mock_data2" />
+        <module name="mockdata" />
         <module name="night02" />
         <module name="project_code" />
         <module name="spark_sql" />
