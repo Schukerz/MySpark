@@ -2,48 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88117d63-e9dc-4e20-83d4-be99d50320ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock-data/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock-data/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/App.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/AreaAdsClickTop3App.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/MockRealTime.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/bean/AdsInfo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/bean/CityInfo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/MyKafkaUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RandomNumUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RandomOptions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RedisUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock_data2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/app/App.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/app/AreaAdsClickTop3App.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/app/Test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/bean/AdsInfo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/bean/CityInfo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/utils/MockRealTime.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/utils/MyKafkaUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/utils/RandomNumUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/utils/RandomOptions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/night/LowerKafka.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/night/Transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/night/Window2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/night/WithStat.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/night/window1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark/Transform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark/WordCountWithStat.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/practice/Test.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark2/MySource.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark2/MySourceDemo.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark2/WordCount.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark2/WordCount2.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark3/MySourceDemo.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark4/StreamingKafka.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/AreaAdsClickTop3App.scala" beforeDir="false" afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/AreaAdsClickTop3App.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RedisUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RedisUtil.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,8 +40,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/AreaAdsClickTop3App.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="-357">
+              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+              <folding>
+                <element signature="e#48#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding>
                 <element signature="e#48#102#0" expanded="true" />
               </folding>
@@ -90,26 +64,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RedisUtil.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.3/jedis-2.9.3-sources.jar!/redis/clients/jedis/JedisPoolConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="189">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/App.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="e#48#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/MockRealTime.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="-372">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
               <folding>
                 <element signature="e#48#75#0" expanded="true" />
               </folding>
@@ -169,7 +146,6 @@
         <option value="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/MyKafkaUtil.scala" />
         <option value="$PROJECT_DIR$/mock-data/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/bean/AdsInfo.scala" />
-        <option value="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala" />
         <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/night/LowerKafka.scala" />
         <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/night/Transform.scala" />
         <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/night/WithStat.scala" />
@@ -189,9 +165,10 @@
         <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/app/AreaAdsClickTop3App.scala" />
         <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/app/Test.scala" />
         <option value="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/App.scala" />
-        <option value="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/AreaAdsClickTop3App.scala" />
         <option value="$PROJECT_DIR$/mock-data/pom.xml" />
         <option value="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RedisUtil.scala" />
+        <option value="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/AreaAdsClickTop3App.scala" />
+        <option value="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala" />
       </list>
     </option>
   </component>
@@ -238,8 +215,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,29 +299,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="MockRealTime.scala" type="6117b065:FileNode" />
-            </path>
-            <path>
-              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="MockRealTime.scala" type="6117b065:FileNode" />
-              <item name="MockRealtime$" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
-            <path>
-              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -356,7 +310,42 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="MyKafkaUtil$" type="ce8f04f3:TypeDefinitionNode" />
+              <item name="RedisUtil$" type="ce8f04f3:TypeDefinitionNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
@@ -406,7 +395,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579139654660" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579144846342" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/0.8.2.1/kafka_2.11-0.8.2.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -516,8 +505,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MockRealtime" />
         <item itemvalue="Application.AreaAdsClickTop3App (1)" />
+        <item itemvalue="Application.MockRealtime" />
         <item itemvalue="Application.AreaAdsClickTop3App" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.MockRealtime (1)" />
@@ -559,7 +548,9 @@
       <workItem from="1579092205788" duration="3052000" />
       <workItem from="1579099971879" duration="2346000" />
       <workItem from="1579102372891" duration="773000" />
-      <workItem from="1579134873873" duration="3484000" />
+      <workItem from="1579134873873" duration="3597000" />
+      <workItem from="1579139786639" duration="2000" />
+      <workItem from="1579139931347" duration="4497000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1578369094023</created>
@@ -666,11 +657,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579071991662</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="hello">
+      <created>1579139670111</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1579139670111</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152721000" />
+    <option name="totallyTimeSpent" value="157333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,7 +683,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.32037532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.3297587" />
       <window_info id="Structure" order="1" sideWeight="0.5021834" side_tool="true" weight="0.308311" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -917,16 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#47#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RandomNumUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-813">
@@ -1053,16 +1041,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/App.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="e#48#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/bean/AdsInfo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1107,36 +1085,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.3/jedis-2.9.3-sources.jar!/redis/clients/jedis/JedisPoolConfig.java">
+    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/MockRealTime.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="-372">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="e#48#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RedisUtil.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.3/jedis-2.9.3-sources.jar!/redis/clients/jedis/JedisPoolConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="147">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/AreaAdsClickTop3App.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="-357">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
           <folding>
             <element signature="e#48#102#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/MockRealTime.scala">
+    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="153">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding>
-            <element signature="e#48#75#0" expanded="true" />
+            <element signature="e#48#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RedisUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#48#102#0" expanded="true" />
           </folding>
         </state>
       </provider>
