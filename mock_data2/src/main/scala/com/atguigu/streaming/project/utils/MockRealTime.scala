@@ -1,8 +1,8 @@
-package com.mycompany.streaming.utils
+package com.atguigu.streaming.project.utils
 
 import java.util.Properties
 
-import com.mycompany.streaming.bean.CityInfo
+import com.atguigu.streaming.project.bean.CityInfo
 import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
 
 import scala.collection.mutable.ArrayBuffer
@@ -60,11 +60,10 @@ object MockRealtime {
       mockRealTimeData().foreach {
         msg => {
           producer.send(new ProducerRecord(topic, msg))
-          Thread.sleep(10)
+          Thread.sleep(100)
         }
       }
       Thread.sleep(1000)
     }
   }
 }
-

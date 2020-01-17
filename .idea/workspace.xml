@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88117d63-e9dc-4e20-83d4-be99d50320ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/app/App.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/app/AreaAdsTop3App.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/app/LastHourAdsClickApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/bean/AdsInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/bean/CityInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/KafkaUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/MockRealTime.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/RandomNumUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/RandomOptions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/RedisUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day03_test/Scala01_Test.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/AreaAdsClickTop3App.scala" beforeDir="false" afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/AreaAdsClickTop3App.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RedisUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RedisUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock_data2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mock_data2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/app/App.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/app/AreaAdsClickTop3App.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/app/Test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/bean/AdsInfo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/bean/CityInfo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/utils/MockRealTime.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/utils/MyKafkaUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/utils/RandomNumUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/utils/RandomOptions.scala" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,58 +57,87 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/AreaAdsClickTop3App.scala">
+        <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/app/AreaAdsTop3App.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
-              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+            <state relative-caret-position="861">
+              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
               <folding>
-                <element signature="e#48#102#0" expanded="true" />
+                <element signature="e#42#91#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala">
+        <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/RedisUtil.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-              <folding>
-                <element signature="e#48#102#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="273">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RedisUtil.scala">
+        <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/MockRealTime.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="135">
+              <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+              <folding>
+                <element signature="e#45#72#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/App.scala">
+        <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/app/LastHourAdsClickApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="240">
+              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
               <folding>
-                <element signature="e#48#102#0" expanded="true" />
+                <element signature="e#42#91#0" expanded="true" />
+                <element signature="e#1473#1500#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/MockRealTime.scala">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.3/commons-pool2-2.4.3.jar!/org/apache/commons/pool2/impl/GenericObjectPoolConfig.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-372">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="84">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.3/commons-pool2-2.4.3.jar!/org/apache/commons/pool2/impl/BaseObjectPoolConfig.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.3/jedis-2.9.3-sources.jar!/redis/clients/jedis/JedisPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="107" column="48" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="48" />
               <folding>
-                <element signature="e#48#75#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.3/jedis-2.9.3-sources.jar!/redis/clients/jedis/JedisPoolConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -109,7 +157,11 @@
       <find>cache</find>
       <find>boost</find>
       <find>boot</find>
+      <find>remote</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -118,19 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark/MySource.scala" />
-        <option value="$PROJECT_DIR$/spark_streaming/pom.xml" />
-        <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark/MySourceStream.scala" />
-        <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark2/WordCount.scala" />
-        <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark2/WordCount2.scala" />
-        <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark2/HighKafka.scala" />
-        <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark2/MySourceDemo.scala" />
-        <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark2/MySource.scala" />
-        <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/kafka/KafkaWordCount.scala" />
-        <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/practice/Test.scala" />
-        <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/kafka/KafkaWordCount2.scala" />
-        <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark3/MySourceDemo.scala" />
-        <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark4/StreamingKafka.scala" />
         <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/kafka/CheckPoint.scala" />
         <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/kafka/MySqlWordCount.scala" />
         <option value="$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark/WordCoundWindow.scala" />
@@ -157,7 +196,6 @@
         <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/bean/CityInfo.scala" />
         <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/utils/MockRealTime.scala" />
         <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/utils/RandomNumUtil.scala" />
-        <option value="$PROJECT_DIR$/mock_data2/pom.xml" />
         <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/utils/MyKafkaUtil.scala" />
         <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/bean/AdsInfo.scala" />
         <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/mycompany/streaming/app/App.scala" />
@@ -169,6 +207,20 @@
         <option value="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RedisUtil.scala" />
         <option value="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/AreaAdsClickTop3App.scala" />
         <option value="$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala" />
+        <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/bean/App.scala" />
+        <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/RandomOptions.scala" />
+        <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/bean/CityInfo.scala" />
+        <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/RandomNumUtil.scala" />
+        <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/MockRealTime.scala" />
+        <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/KafkaUtil.scala" />
+        <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/bean/AdsInfo.scala" />
+        <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/app/App.scala" />
+        <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/JedisUtil.scala" />
+        <option value="$PROJECT_DIR$/mock_data2/pom.xml" />
+        <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/RedisUtil.scala" />
+        <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/app/AreaAdsTop3App.scala" />
+        <option value="$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day03_test/Scala01_Test.scala" />
+        <option value="$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/app/LastHourAdsClickApp.scala" />
       </list>
     </option>
   </component>
@@ -215,8 +267,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,25 +277,25 @@
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock-data" type="462c0819:PsiDirectoryNode" />
+              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock-data" type="462c0819:PsiDirectoryNode" />
+              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock-data" type="462c0819:PsiDirectoryNode" />
+              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock-data" type="462c0819:PsiDirectoryNode" />
+              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
@@ -253,7 +303,7 @@
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock-data" type="462c0819:PsiDirectoryNode" />
+              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
@@ -262,7 +312,7 @@
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock-data" type="462c0819:PsiDirectoryNode" />
+              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
@@ -272,68 +322,36 @@
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock-data" type="462c0819:PsiDirectoryNode" />
+              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="ce8f04f3:TypeDefinitionNode" />
+              <item name="LastHourAdsClickApp$" type="ce8f04f3:TypeDefinitionNode" />
             </path>
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="AreaAdsClickTop3App$" type="ce8f04f3:TypeDefinitionNode" />
+              <item name="night02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock-data" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="RedisUtil$" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
-            <path>
-              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
+              <item name="night02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
+              <item name="night02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
+              <item name="night02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
@@ -341,15 +359,155 @@
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpark" type="462c0819:PsiDirectoryNode" />
-              <item name="mock_data2" type="462c0819:PsiDirectoryNode" />
+              <item name="night02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="night02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="day03_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="night02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="day04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_streaming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaWordCount2$" type="ce8f04f3:TypeDefinitionNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="night" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpark" type="462c0819:PsiDirectoryNode" />
+              <item name="spark_streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-pool2:2.4.3" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-pool2:2.4.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-pool2-2.4.3.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-pool2:2.4.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-pool2-2.4.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="pool2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-pool2:2.4.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-pool2-2.4.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="pool2" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-pool2:2.4.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-pool2-2.4.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="pool2" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="BaseObjectPoolConfig" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.commons:commons-pool2:2.4.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-pool2-2.4.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="pool2" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="GenericObjectPoolConfig" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
@@ -376,6 +534,15 @@
               <item name="jedis-2.9.3.jar" type="462c0819:PsiDirectoryNode" />
               <item name="clients" type="462c0819:PsiDirectoryNode" />
               <item name="jedis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: redis.clients:jedis:2.9.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="jedis-2.9.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="jedis" type="462c0819:PsiDirectoryNode" />
+              <item name="JedisPool" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="MySpark" type="b2602c69:ProjectViewProjectNode" />
@@ -390,15 +557,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579144846342" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579238565820" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/0.8.2.1/kafka_2.11-0.8.2.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -406,23 +581,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\study\realtime\Spark\Code\Github\MySpark\mock_data2\src\main\resources" />
-      <recent name="G:\study\realtime\Spark\Code\Github\MySpark\mock_data2\src\main\scala\com\mycompany\streaming" />
-      <recent name="G:\study\realtime\Spark\Code\Github\MySpark\mock-data\src\main\resources" />
-      <recent name="G:\study\realtime\Spark\Code\Github\MySpark\mock-data\src\main\scala\com\atguigu\mock\streaming\project" />
-      <recent name="G:\study\realtime\Spark\Code\Github\MySpark\mock-data\src\main\scala\com\atguigu\mock\streaming\project\app" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\study\realtime\Spark\Code\Github\MySpark\project_code\src\main" />
+      <recent name="G:\study\realtime\Spark\Code\MySpark" />
+      <recent name="G:\study\realtime\Spark\Code\MySpark\night02" />
+      <recent name="G:\study\realtime\Spark\Code\MySpark\night02\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.kafka" />
       <recent name="com.atguigu.spark.day04" />
       <recent name="com.atguigu.spark.day01.chapter01" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\study\realtime\Spark\Code\Github\MySpark\project_code\src\main" />
-      <recent name="G:\study\realtime\Spark\Code\MySpark" />
-      <recent name="G:\study\realtime\Spark\Code\MySpark\night02" />
-      <recent name="G:\study\realtime\Spark\Code\MySpark\night02\src\main" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\study\realtime\Spark\Code\Github\MySpark\mock_data2\src\main\scala\com\atguigu\streaming\project" />
+      <recent name="G:\study\realtime\Spark\Code\Github\MySpark\mock_data2\src\main\resources" />
+      <recent name="G:\study\realtime\Spark\Code\Github\MySpark\mock_data2\src\main\scala\com\mycompany\streaming" />
+      <recent name="G:\study\realtime\Spark\Code\Github\MySpark\mock-data\src\main\resources" />
+      <recent name="G:\study\realtime\Spark\Code\Github\MySpark\mock-data\src\main\scala\com\atguigu\mock\streaming\project" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -437,7 +612,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MockRealtime">
+  <component name="RunManager" selected="Application.LastHourAdsClickApp (1)">
     <configuration name="AreaAdsClickTop3App (1)" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.mock.streaming.project.app.AreaAdsClickTop3App" />
       <module name="mockdata" />
@@ -451,12 +626,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AreaAdsClickTop3App" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.streaming.app.AreaAdsClickTop3App" />
+    <configuration name="AreaAdsTop3App" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.streaming.project.app.AreaAdsTop3App" />
       <module name="mock_data2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mycompany.streaming.app.*" />
+          <option name="PATTERN" value="com.atguigu.streaming.project.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -464,12 +639,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MockRealtime (1)" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.streaming.utils.MockRealtime" />
+    <configuration name="LastHourAdsClickApp (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.streaming.project.app.LastHourAdsClickApp" />
       <module name="mock_data2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mycompany.streaming.utils.*" />
+          <option name="PATTERN" value="com.atguigu.streaming.project.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -477,8 +652,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MockRealtime" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.mock.streaming.project.app.MockRealtime" />
+    <configuration name="LastHourAdsClickApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.mock.streaming.project.app.LastHourAdsClickApp" />
       <module name="mockdata" />
       <extension name="coverage">
         <pattern>
@@ -490,12 +665,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.streaming.app.Test" />
+    <configuration name="MockRealtime (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.streaming.project.utils.MockRealtime" />
       <module name="mock_data2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mycompany.streaming.app.*" />
+          <option name="PATTERN" value="com.atguigu.streaming.project.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -505,11 +680,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AreaAdsClickTop3App (1)" />
-        <item itemvalue="Application.MockRealtime" />
-        <item itemvalue="Application.AreaAdsClickTop3App" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.LastHourAdsClickApp (1)" />
         <item itemvalue="Application.MockRealtime (1)" />
+        <item itemvalue="Application.AreaAdsTop3App" />
+        <item itemvalue="Application.LastHourAdsClickApp" />
+        <item itemvalue="Application.AreaAdsClickTop3App (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -550,7 +725,9 @@
       <workItem from="1579102372891" duration="773000" />
       <workItem from="1579134873873" duration="3597000" />
       <workItem from="1579139786639" duration="2000" />
-      <workItem from="1579139931347" duration="4497000" />
+      <workItem from="1579139931347" duration="5861000" />
+      <workItem from="1579163024020" duration="1878000" />
+      <workItem from="1579225536917" duration="10377000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1578369094023</created>
@@ -664,11 +841,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579139670111</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="hello">
+      <created>1579145940277</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1579145940277</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157333000" />
+    <option name="totallyTimeSpent" value="170952000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,9 +865,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.3297587" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.2272118" />
       <window_info id="Structure" order="1" sideWeight="0.5021834" side_tool="true" weight="0.308311" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -714,6 +897,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Remote Host" order="10" weight="0.3297587" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.30495977" />
@@ -757,127 +941,11 @@
     <MESSAGE value="hello" />
     <option name="LAST_COMMIT_MESSAGE" value="hello" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.8.2.1/kafka-clients-0.8.2.1.jar!/org/apache/kafka/clients/consumer/ConsumerConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="20" column="65" lean-forward="true" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../01_spark/02_资料/spark-2.1.1.zip!/spark-2.1.1/streaming/src/main/scala/org/apache/spark/streaming/StreamingContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="797" column="27" selection-start-line="797" selection-start-column="27" selection-end-line="797" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark4/StreamingKafka.scala" />
-    <entry file="file://$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/kafka/CheckPoint.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-          <folding>
-            <element signature="e#27#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark/WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="19" column="41" selection-start-line="8" selection-start-column="4" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="e#27#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/kafka/MySqlWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#27#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark/WordCoundWindow.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#27#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark/WordCountWithStat.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="e#27#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/spark/Transform.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="e#27#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/RandomNumUtil.scala" />
-    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/realtime/streaming/project/RandomNumUtil.scala" />
-    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/utils/RandomOptions.scala" />
-    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/utils/RandomNumUtil.scala" />
-    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/utils/RandomOptions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/bean/CityInfo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_sql/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_streaming/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="25" column="15" selection-start-line="12" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/kafka/KafkaWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="61" />
-          <folding>
-            <element signature="e#28#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mock-data/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/bean/AdsInfo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -932,13 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../01_spark/02_资料/spark-2.1.1.zip!/spark-2.1.1/streaming/src/main/scala/org/apache/spark/streaming/dstream/PairDStreamFunctions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="306" column="40" selection-start-line="306" selection-start-column="40" selection-end-line="306" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/night/Window2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -962,13 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mock_data2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1085,37 +1139,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/MockRealTime.scala">
+    <entry file="jar://$PROJECT_DIR$/../../../01_spark/02_资料/spark-2.1.1.zip!/spark-2.1.1/streaming/src/main/scala/org/apache/spark/streaming/dstream/DStream.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="e#48#75#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="143">
+          <caret line="753" column="6" selection-start-line="753" selection-start-column="6" selection-end-line="753" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.3/jedis-2.9.3-sources.jar!/redis/clients/jedis/JedisPoolConfig.java">
+    <entry file="jar://$PROJECT_DIR$/../../../01_spark/02_资料/spark-2.1.1.zip!/spark-2.1.1/streaming/src/main/scala/org/apache/spark/streaming/Duration.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="311">
+          <caret line="96" column="14" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/AreaAdsClickTop3App.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="e#48#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="147">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="e#48#102#0" expanded="true" />
           </folding>
@@ -1131,10 +1172,192 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/App.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="e#48#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/MockRealTime.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="e#48#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock-data/src/main/scala/com/atguigu/mock/streaming/project/app/LastHourAdsClickApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding>
+            <element signature="e#48#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/bean/App.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/RandomOptions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../01_spark/02_资料/spark-2.1.1.zip!/spark-2.1.1/external/kafka-0-10/src/main/scala/org/apache/spark/streaming/kafka010/KafkaUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1706">
+          <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark_streaming/src/main/scala/com/atguigu/kafka/KafkaWordCount2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/KafkaUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#162#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/bean/CityInfo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/bean/AdsInfo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#44#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/app/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#43#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../01_spark/02_资料/spark-2.1.1.zip!/spark-2.1.1/streaming/src/main/scala/org/apache/spark/streaming/dstream/PairDStreamFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="397" column="36" selection-start-line="397" selection-start-column="36" selection-end-line="397" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/RandomNumUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+          <folding>
+            <element signature="e#45#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_data2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.3/jedis-2.9.3-sources.jar!/redis/clients/jedis/JedisPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="107" column="48" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="48" />
+          <folding>
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.3/commons-pool2-2.4.3.jar!/org/apache/commons/pool2/impl/BaseObjectPoolConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.3/commons-pool2-2.4.3.jar!/org/apache/commons/pool2/impl/GenericObjectPoolConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.3/jedis-2.9.3-sources.jar!/redis/clients/jedis/JedisPoolConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/app/AreaAdsTop3App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+          <folding>
+            <element signature="e#42#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/RedisUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/utils/MockRealTime.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+          <folding>
+            <element signature="e#45#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/night02/src/main/scala/com/atguigu/spark/day03_test/Scala01_Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock_data2/src/main/scala/com/atguigu/streaming/project/app/LastHourAdsClickApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding>
+            <element signature="e#42#91#0" expanded="true" />
+            <element signature="e#1473#1500#0" expanded="true" />
           </folding>
         </state>
       </provider>

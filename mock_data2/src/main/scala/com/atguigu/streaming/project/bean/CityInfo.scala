@@ -1,4 +1,5 @@
-package com.mycompany.streaming.bean
+package com.atguigu.streaming.project.bean
+
 /**
   * 城市表
   *
@@ -9,3 +10,4 @@ package com.mycompany.streaming.bean
 case class CityInfo(city_id: Long,
                     city_name: String,
                     area: String)
+

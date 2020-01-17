@@ -1,4 +1,5 @@
-package com.mycompany.streaming.utils
+package com.atguigu.streaming.project.utils
+
 import scala.collection.mutable.ListBuffer
 
 /**
@@ -38,3 +39,4 @@ class RandomOptions[T] {
     options(RandomNumUtil.randomInt(0, totalWeight - 1))
   }
 }
+
